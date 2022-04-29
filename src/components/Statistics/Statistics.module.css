@@ -1,0 +1,13 @@
+    .statList {
+        list-style: none;
+    }
+    
+    .statItem {
+        font-size: 18px;
+        font-weight: 500;
+        color: rgb(36, 85, 81);
+    }
+    
+    .statItem:not(:last-child) {
+        margin-bottom: 10px;
+    }

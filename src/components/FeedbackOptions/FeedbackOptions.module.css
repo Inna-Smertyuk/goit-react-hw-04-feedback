@@ -1,0 +1,25 @@
+.btnBox {
+    margin: 0;
+}
+
+.button {
+    color: rgb(240, 245, 244);
+    width: 94px;
+    height: 45px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: rgba(24, 119, 103, 0.815);
+}
+
+.button+.button {
+    margin-left: 30px;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 4px 8px 2px rgba(24, 119, 103, 0.7);
+}
